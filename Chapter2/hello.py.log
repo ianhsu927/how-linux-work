@@ -1,0 +1,946 @@
+execve("/home/linuxbrew/.linuxbrew/bin/python3", ["python3", "hello.py"], 0x7ffd13a0e438 /* 41 vars */) = 0
+brk(NULL)                               = 0x55f81a4a9000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0405cf6000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/glibc-hwcaps/x86-64-v3/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/glibc-hwcaps/x86-64-v2/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/haswell/x86_64/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/haswell/x86_64", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/haswell/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/haswell", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/x86_64/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/x86_64", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/tls", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/haswell/x86_64/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/haswell/x86_64", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/haswell/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/haswell", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/x86_64/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/x86_64", 0x7ffc341a62e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/libpython3.12.so.1.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=7737896, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 6779432, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f040567e000
+mprotect(0x7f0405784000, 5652480, PROT_NONE) = 0
+mmap(0x7f0405784000, 2199552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x106000) = 0x7f0405784000
+mmap(0x7f040599d000, 1454080, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31f000) = 0x7f040599d000
+mmap(0x7f0405b00000, 1994752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x481000) = 0x7f0405b00000
+mmap(0x7f0405ce7000, 3912, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0405ce7000
+mmap(0x7f0405ce8000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x754000) = 0x7f0405ce8000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/glibc-hwcaps/x86-64-v3", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/glibc-hwcaps/x86-64-v2", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/tls", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/haswell/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/haswell", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/x86_64", 0x7ffc341a62c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=22674, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 22674, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0405678000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20t\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1922136, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 1970000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0405497000
+mmap(0x7f04054bd000, 1396736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f04054bd000
+mmap(0x7f0405612000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17b000) = 0x7f0405612000
+mmap(0x7f0405665000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ce000) = 0x7f0405665000
+mmap(0x7f040566b000, 53072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f040566b000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0405495000
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/mpdecimal/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/openssl@3/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/ncurses/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/readline/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/zlib/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/sqlite/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/xz/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/bzip2/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/expat/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libedit/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libffi/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libxcrypt/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/berkeley-db@5/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/krb5/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libtirpc/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/libnsl/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=907784, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 909560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f04053b6000
+mmap(0x7f04053c6000, 471040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f04053c6000
+mmap(0x7f0405439000, 368640, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x83000) = 0x7f0405439000
+mmap(0x7f0405493000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdc000) = 0x7f0405493000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f04053b3000
+arch_prctl(ARCH_SET_FS, 0x7f04053b3740) = 0
+set_tid_address(0x7f04053b3a10)         = 2859
+set_robust_list(0x7f04053b3a20, 24)     = 0
+rseq(0x7f04053b4060, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f0405665000, 16384, PROT_READ) = 0
+mprotect(0x7f0405493000, 4096, PROT_READ) = 0
+mprotect(0x7f0405b00000, 487424, PROT_READ) = 0
+mprotect(0x55f818848000, 4096, PROT_READ) = 0
+mprotect(0x7f0405d28000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f0405678000, 22674)           = 0
+getrandom("\xed\xd9\xf5\x43\x2e\x74\xf8\xa1", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x55f81a4a9000
+brk(0x55f81a4ca000)                     = 0x55f81a4ca000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3048928, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 3048928, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f04050ca000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27028, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3, 0) = 0x7f04050c3000
+close(3)                                = 0
+futex(0x7f040566aa4c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getcwd("/home/ian/how-linux-work/Chapter2", 4096) = 34
+getrandom("\xf9\xbe\x74\x58\x86\xe5\x87\x8c\x95\xa6\x9d\xfb\xa1\xda\x09\x35\x94\xbd\x33\xdb\x91\xed\x0b\x69", 24, GRND_NONBLOCK) = 24
+gettid()                                = 2859
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0404fc3000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0404f82000
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0404f61000
+brk(0x55f81a4eb000)                     = 0x55f81a4eb000
+mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f040567a000
+brk(0x55f81a50c000)                     = 0x55f81a50c000
+newfstatat(AT_FDCWD, "/home/ian/.deno/bin/python3", 0x7ffc341a6780, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/ian/.bun/bin/python3", 0x7ffc341a6780, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/ian/.nvm/versions/node/v18.20.2/bin/python3", 0x7ffc341a6780, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/bin/python3", {st_mode=S_IFREG|0555, st_size=22728, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+readlink("/home/linuxbrew/.linuxbrew/bin/python3", "../Cellar/python@3.12/3.12.3/bin"..., 4096) = 40
+readlink("/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3", "python3.12", 4096) = 10
+readlink("/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3.12", 0x7ffc341a17a0, 4096) = -1 EINVAL (Invalid argument)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/bin/python3._pth", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3.12._pth", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/pybuilddir.txt", O_RDONLY) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/Modules/Setup.local", 0x7ffc341a6780, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/lib/python312.zip", 0x7ffc341a64c0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python312.zip", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/lib/python312.zip", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/lib/python312.zip", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/lib/python312.zip", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/lib/python312.zip", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/lib/python312.zip", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/lib/python3.12/os.py", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/lib/python3.12/os.pyc", 0x7ffc341a6520, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/os.py", {st_mode=S_IFREG|0444, st_size=39786, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/lib/python3.12/lib-dynload", 0x7ffc341a6528, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+sysinfo({uptime=108238, loads=[2816, 864, 128], totalram=16566312960, freeram=14334656512, sharedram=3112960, bufferram=309215232, totalswap=4294967296, freeswap=4294967296, procs=253, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+brk(0x55f81a52d000)                     = 0x55f81a52d000
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=561, ...}, AT_EMPTY_PATH) = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=561, ...}, AT_EMPTY_PATH) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 561
+lseek(3, -342, SEEK_CUR)                = 219
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 342
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python312.zip", 0x7ffc341a5f10, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python312.zip", 0x7ffc341a62d0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x55f81a50ea60 /* 206 entries */, 32768) = 6848
+getdents64(3, 0x55f81a50ea60 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__init__.cpython-312-x86_64-linux-gnu.so", 0x7ffc341a62d0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__init__.abi3.so", 0x7ffc341a62d0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__init__.so", 0x7ffc341a62d0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__init__.py", {st_mode=S_IFREG|0444, st_size=5884, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__init__.py", {st_mode=S_IFREG|0444, st_size=5884, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__pycache__/__init__.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5838, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a5fe0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5838, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\374\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 5839) = 5838
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x55f81a518230 /* 125 entries */, 32768) = 4224
+getdents64(3, 0x55f81a518230 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/aliases.py", {st_mode=S_IFREG|0444, st_size=15677, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/aliases.py", {st_mode=S_IFREG|0444, st_size=15677, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__pycache__/aliases.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=12456, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a54d0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=12456, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f==\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 12457) = 12456
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x55f81a54e000)                     = 0x55f81a54e000
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/utf_8.py", {st_mode=S_IFREG|0444, st_size=1005, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/utf_8.py", {st_mode=S_IFREG|0444, st_size=1005, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/encodings/__pycache__/utf_8.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2195, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a6030)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2195, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 2196) = 2195
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0404e61000
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x7f0405844e03, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+fcntl(0, F_GETFD)                       = 0
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+ioctl(0, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+fcntl(1, F_GETFD)                       = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+fcntl(2, F_GETFD)                       = 0
+newfstatat(2, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+ioctl(2, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/bin/pyvenv.cfg", 0x7ffc341a5e00, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/pyvenv.cfg", 0x7ffc341a5e60, 0) = -1 ENOENT (No such file or directory)
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+newfstatat(AT_FDCWD, "/home/ian/.local/lib/python3.12/site-packages", 0x7ffc341a60d0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x55f81a53b720 /* 19 entries */, 32768) = 776
+getdents64(3, 0x55f81a53b720 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/sitecustomize.py", {st_mode=S_IFREG|0444, st_size=3556, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/sitecustomize.py", {st_mode=S_IFREG|0444, st_size=3556, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/sitecustomize.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3764, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a5aa0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3764, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0)\221\34f\344\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0"..., 3765) = 3764
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__init__.cpython-312-x86_64-linux-gnu.so", 0x7ffc341a5650, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__init__.abi3.so", 0x7ffc341a5650, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__init__.so", 0x7ffc341a5650, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__init__.py", {st_mode=S_IFREG|0444, st_size=16315, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__init__.py", {st_mode=S_IFREG|0444, st_size=16315, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__pycache__/__init__.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=17986, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a53c0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=17986, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\273?\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 17987) = 17986
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/enum.py", {st_mode=S_IFREG|0444, st_size=81636, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/enum.py", {st_mode=S_IFREG|0444, st_size=81636, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/enum.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=80756, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4ce0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=80756, ...}, AT_EMPTY_PATH) = 0
+brk(0x55f81a578000)                     = 0x55f81a578000
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\344>\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 80757) = 80756
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/types.py", {st_mode=S_IFREG|0444, st_size=10993, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/types.py", {st_mode=S_IFREG|0444, st_size=10993, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/types.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=14987, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4600)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=14987, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\361*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 14988) = 14987
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/operator.py", {st_mode=S_IFREG|0444, st_size=10965, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/operator.py", {st_mode=S_IFREG|0444, st_size=10965, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/operator.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=17412, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4600)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=17412, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\325*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 17413) = 17412
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/functools.py", {st_mode=S_IFREG|0444, st_size=38126, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/functools.py", {st_mode=S_IFREG|0444, st_size=38126, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/functools.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=40554, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4600)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=40554, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\356\224\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 40555) = 40554
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/collections/__init__.cpython-312-x86_64-linux-gnu.so", 0x7ffc341a41b0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/collections/__init__.abi3.so", 0x7ffc341a41b0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/collections/__init__.so", 0x7ffc341a41b0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/collections/__init__.py", {st_mode=S_IFREG|0444, st_size=52378, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/collections/__init__.py", {st_mode=S_IFREG|0444, st_size=52378, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/collections/__pycache__/__init__.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=73137, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a3f20)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=73137, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\232\314\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 73138) = 73137
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/keyword.py", {st_mode=S_IFREG|0444, st_size=1073, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/keyword.py", {st_mode=S_IFREG|0444, st_size=1073, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/keyword.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1089, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a3840)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1089, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f1\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 1090) = 1089
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/reprlib.py", {st_mode=S_IFREG|0444, st_size=6569, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/reprlib.py", {st_mode=S_IFREG|0444, st_size=6569, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/reprlib.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9957, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a3840)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9957, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\251\31\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9958) = 9957
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+brk(0x55f81a59c000)                     = 0x55f81a59c000
+getdents64(3, 0x55f81a573470 /* 8 entries */, 32768) = 248
+getdents64(3, 0x55f81a573470 /* 0 entries */, 32768) = 0
+brk(0x55f81a594000)                     = 0x55f81a594000
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_compiler.py", {st_mode=S_IFREG|0444, st_size=26089, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_compiler.py", {st_mode=S_IFREG|0444, st_size=26089, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__pycache__/_compiler.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=26564, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4850)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=26564, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\351e\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 26565) = 26564
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_parser.py", {st_mode=S_IFREG|0444, st_size=41201, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_parser.py", {st_mode=S_IFREG|0444, st_size=41201, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__pycache__/_parser.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=42055, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a3ce0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=42055, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\361\240\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 42056) = 42055
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_constants.py", {st_mode=S_IFREG|0444, st_size=5930, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_constants.py", {st_mode=S_IFREG|0444, st_size=5930, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__pycache__/_constants.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5344, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a3600)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5344, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f*\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\24\0\0"..., 5345) = 5344
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_casefix.py", {st_mode=S_IFREG|0444, st_size=5446, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/_casefix.py", {st_mode=S_IFREG|0444, st_size=5446, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/re/__pycache__/_casefix.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1864, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4170)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1864, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24fF\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1865) = 1864
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/copyreg.py", {st_mode=S_IFREG|0444, st_size=7614, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/copyreg.py", {st_mode=S_IFREG|0444, st_size=7614, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/__pycache__/copyreg.cpython-312.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=7462, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a4ce0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=7462, ...}, AT_EMPTY_PATH) = 0
+read(3, "\313\r\r\n\0\0\0\0\252\367\24f\276\35\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 7463) = 7462
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/bin", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/bin/python3", {st_mode=S_IFLNK|0777, st_size=40, ...}, AT_SYMLINK_NOFOLLOW) = 0
+readlink("/home/linuxbrew/.linuxbrew/bin/python3", "../Cellar/python@3.12/3.12.3/bin"..., 4096) = 40
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3", {st_mode=S_IFLNK|0777, st_size=10, ...}, AT_SYMLINK_NOFOLLOW) = 0
+readlink("/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3", "python3.12", 4096) = 10
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/bin/python3.12", {st_mode=S_IFREG|0555, st_size=22728, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/python-tk@3.12/libexec", 0x7ffc341a5a50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/opt/python-gdbm@3.12/libexec", 0x7ffc341a5a50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+brk(0x55f81a5b7000)                     = 0x55f81a5b7000
+getdents64(3, 0x55f81a58e6c0 /* 78 entries */, 32768) = 4912
+getdents64(3, 0x55f81a58e6c0 /* 0 entries */, 32768) = 0
+brk(0x55f81a5af000)                     = 0x55f81a5af000
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/site-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/linuxbrew/.linuxbrew/Cellar/python@3.12/3.12.3/lib/python3.12/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x55f81a58e6c0 /* 19 entries */, 32768) = 776
+getdents64(3, 0x55f81a58e6c0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/ian/how-linux-work/Chapter2/hello.py", {st_mode=S_IFREG|0644, st_size=22, ...}, 0) = 0
+openat(AT_FDCWD, "/home/ian/how-linux-work/Chapter2/hello.py", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=22, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a6700)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, -22, SEEK_END)                 = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "print(\"Hello world!\")\n", 4096) = 22
+lseek(3, 0, SEEK_END)                   = 22
+lseek(3, 0, SEEK_CUR)                   = 22
+lseek(3, 0, SEEK_SET)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=22, ...}, AT_EMPTY_PATH) = 0
+read(3, "print(\"Hello world!\")\n", 23) = 22
+read(3, "", 1)                          = 0
+lseek(3, 0, SEEK_SET)                   = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/ian/how-linux-work/Chapter2/hello.py", {st_mode=S_IFREG|0644, st_size=22, ...}, 0) = 0
+readlink("hello.py", 0x7ffc34195ed0, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/ian/how-linux-work/Chapter2", 1024) = 34
+readlink("/home/ian/how-linux-work/Chapter2/hello.py", 0x7ffc34195a80, 1023) = -1 EINVAL (Invalid argument)
+openat(AT_FDCWD, "/home/ian/how-linux-work/Chapter2/hello.py", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=22, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffc341a6e90)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=22, ...}, AT_EMPTY_PATH) = 0
+read(3, "print(\"Hello world!\")\n", 4096) = 22
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "print(\"Hello world!\")\n", 4096) = 22
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+write(1, "Hello world!\n", 13)          = 13
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, {sa_handler=0x7f0405844e03, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f04054d3050}, 8) = 0
+brk(0x55f81a5ae000)                     = 0x55f81a5ae000
+munmap(0x7f040567a000, 16384)           = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
